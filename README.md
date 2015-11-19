@@ -1,12 +1,17 @@
-texwatch
-========
+MdWatch
+=======
 
-A bash script which monitors a .tex source file for modification, then compiles and previews it when it changes.
+A bash script which monitors a markdown source file for modification, then process it with with pandoc.
 
-### Requirements:
-- pdflatex
-- evince
+### Requirements
+
+#. pandoc
+#. bash
 
 ### Usage:
-Simply call `texwatch.sh /path/to/your/document.tex`.  
-The script will render the PDF and open it in evince. When you modify the tex file, the script will recompile the PDF and evince will update its preview. If the build fails, the script will print the errors.
+
+Simply call `mdwatch.sh /path/to/your/document.md`{.bash}.
+
+### Credits
+
+#. [le1ca/texwatch](https://github.com/le1ca/texwatch)
